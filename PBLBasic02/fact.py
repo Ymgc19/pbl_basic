@@ -3,9 +3,9 @@ def main():
     print("answer =", factorial(num))
 
 def factorial(num):
-    a = 1
+    ans = 1
     for _ in range(num, 0, -1):
-        a *= _
-    return(a)
+        ans *= _
+    return(ans)
 
 main()

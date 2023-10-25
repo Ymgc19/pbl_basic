@@ -6,9 +6,9 @@ def factorial(num):
     if num < 0:
         return None
     else:
-        a = 1
+        ans = 1
         for _ in range(num, 0, -1):
-            a *= _
-        return(a)
+            ans *= _
+        return ans
 
 main()
