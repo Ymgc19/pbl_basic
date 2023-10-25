@@ -10,7 +10,6 @@ def get_month_days(month):
         return(31)
     elif month in thirty:
         return(30)
-    else:
-        return(28)
+    return(28)
 
 main()

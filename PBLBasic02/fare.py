@@ -7,7 +7,6 @@ def get_fare(age):
         return(100)
     elif age >= 10 and age <= 17:
         return(150)
-    else:
-        return(250)
+    return(250)
 
 main()
